@@ -10,43 +10,44 @@ public class Photo {
     private String filename;
     private int width;
     private int height;
-}
 
-public Address(String url, String filename, int width, int height) {
-    this.url = url;
-    this.filename = filename;
-    this.width = width;
-    this.height = height;
-}
+    public Photo(String url, String filename, int width, int height) {
+        this.url = url;
+        this.filename = filename;
+        this.width = width;
+        this.height = height;
+    }
 
-public String getUrl() {
-    return url;
-}
+    public String getUrl() {
+        return url;
+    }
 
-public void setUrl(String url) {
-    this.url = url;
-}
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
-public String getFilename() {
-    return filename;
-}
+    public String getFilename() {
+        return filename;
+    }
 
-public void setFilename(String filename) {
-    this.filename = filename;
-}
+    public void setFilename(String filename) {
+        this.filename = filename;
+    }
 
-public int getWidth() {
-    return width;
-}
+    public int getWidth() {
+        return width;
+    }
 
-public void setWidth(int width) {
-    this.width = width;
-}
+    public void setWidth(int width) {
+        this.width = width;
+    }
 
-public int getHeight() {
-    return height;
-}
+    public int getHeight() {
+        return height;
+    }
 
-public void setHeight(int height) {
-    this.height = height;
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
 }
