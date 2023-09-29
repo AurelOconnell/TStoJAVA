@@ -1,0 +1,13 @@
+// export class Address {
+//     number: string;
+//     street: string;
+//     city: string;
+//     country: string;
+// }
+
+public class Address {
+    private String number;
+    private String street;
+    private String city;
+    private String country;
+}
