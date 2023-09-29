@@ -10,16 +10,24 @@
 
 import java.util.Address;
 import java.util.Photo;
+import java.util.Date;
 
 public class User {
     private Date birthdate;
     private int size;
-    private Photo photos;
+    private Photo[] photos;
     private Address address;
 }
 
+public User(Date birthdate, int size, Photo[] photos, Address address) {
+    this.birthdate = birthdate;
+    this.size = size;
+    this.photos = photos;
+    this.address = address;
+}
+
 public Date getBirthdate() {
-    return birthdate
+    return birthdate;
 }
 
 public void setBirthdate(Date birthdate) {
@@ -27,26 +35,26 @@ public void setBirthdate(Date birthdate) {
 }
 
 public int getSize() {
-    return size
+    return size;
 }
 
-public void setSize(double size) {
-    this.size = size
+public void setSize(int size) {
+    this.size = size;
 }
 
-public Photo getPhotos() {
-    return photos
+public Photo[] getPhotos() {
+    return photos;
 }
 
-public void setPhotos(Photo photos) {
-    this.photos = photos
+public void setPhotos(Photo[] photos) {
+    this.photos = photos;
 }
 
 public Address getAddress() {
-    return address
+    return address;
 }
 
 public void setAddress(Address address) {
-    this.address = address
+    this.address = address;
 }
 
