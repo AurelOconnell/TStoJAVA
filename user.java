@@ -8,18 +8,17 @@
 //     address: Address; 
 // }
 
-import java.util.Address;
-import java.util.Photo;
 import java.util.Date;
+import java.util.List;
 
 public class User {
     private Date birthdate;
     private int size;
-    private Photo[] photos;
+    private List<Photo> photos;
     private Address address;
 }
 
-public User(Date birthdate, int size, Photo[] photos, Address address) {
+public User(Date birthdate, int size, List<Photo> photos, Address address) {
     this.birthdate = birthdate;
     this.size = size;
     this.photos = photos;
@@ -42,11 +41,11 @@ public void setSize(int size) {
     this.size = size;
 }
 
-public Photo[] getPhotos() {
+public List<Photo> getPhotos() {
     return photos;
 }
 
-public void setPhotos(Photo[] photos) {
+public void setPhotos(List<Photo> photos) {
     this.photos = photos;
 }
 
